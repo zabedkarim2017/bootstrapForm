@@ -1,0 +1,143 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.04em;
+    margin: 80px 0px;
+}
+.panel-primary {
+    border-color: orange;
+}
+.panel-primary > .panel-heading {
+    color: #fff;
+     background-color: orange;
+     border-color: orange;
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    color: inherit;
+    text-align: center;
+}
+
+.panel {
+    margin: 50px 0px;
+    background-color: #fff;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-color: orange;
+}
+
+#container-demo{
+    text-align: left;
+    padding: 0;
+    margin: 0 auto;
+}
+#wrapper{
+    width: 100%;
+    right: 0;
+    margin: 0 auto;
+}
+.form-control {
+    padding: 2px 6px 2px 28px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid orange;
+}
+.field_icon {
+    color: orange;
+    position: relative;
+    left: 12px;
+    top: 35px;
+    font-size: 14px;
+}
+.half-left-space {
+    width: 48%;
+    margin-left: 0;
+    float: right;
+}
+.half-right-space {
+    width: 48%;
+    margin-right: 0;
+    float: left;
+}
+.btn-primary {
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+}
+.form-control:focus {
+    border-color: orange;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(255,165,0);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(255,165,0);
+}
+/*Style for horizontal form*/
+.signup
+{
+    background-color: ;
+    border-color: orange;
+}
+
+.signup .panel-body label
+{
+    color: black;
+
+}
+.signup .panel-heading
+{
+    background-color: orange;
+    color: white;
+}
+
+.signup .panel-footer
+{
+    background-color: orange;
+}
+.signup .form-control{
+    padding: 2px 6px 2px 20px;
+    border: 1px solid orange;
+}
+.signup .panel-default {
+    border-color: orange;
+}
+.panel-default {
+    border-color: orange;
+}
+.btn-submit{margin-right:5px;}
+
+.btn-success {
+    background: orange!important;
+    color: #fff;
+
+}
+.btn-primary,.btn-success {
+    background: orange;
+    color: #fff;
+
+    transition: all 0.3s ease-out 0s;
+    transition-duration: 0.3s;
+}
+.btn-primary:hover , .btn-success:hover {
+    background: crimson;
+    border: 1px solid crimson;
+}
+lastBtn {
+    background: deepskyblue!important;
+    border: 1px solid deepskyblue!important;
+}
+.footer-text {
+    display: block;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+
+}
+.ion-ios-heart {
+    color: crimson;
+}
+.modal-header {
+    border: none;
+    margin-bottom: 25px;
+    margin-top: -35px;
+}
